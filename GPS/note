@@ -1,0 +1,3 @@
+// this command force format from exFAT to FAT32
+sudo diskutil eraseDisk FAT32 NAME MBRFormat /dev/disk1
+
