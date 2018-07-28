@@ -12,3 +12,11 @@ A python script to use WebCam (or other cameras) to detect faces.
 ## GPS
 On Raspbian OS, I successfully connected GPS module to RaspberryPi3.
 Refer to the 2 pics in ./GPS for detail on connection and terminal commands.
+
+## hBridge
+Python script to control 4 motor vehicle.
+
+## webcam
+Python script to use webcam on Raspberry Pi
+- pi_surveillance_web.py, open a window to show webcam input. Also detect the moving pixels on a frame, and detect faces in the those pixels (need OpenCV support).
+- webcam.py, simple open a window to show webcam input.
