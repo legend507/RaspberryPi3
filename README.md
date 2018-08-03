@@ -20,3 +20,6 @@ Python script to control 4 motor vehicle.
 Python script to use webcam on Raspberry Pi
 - pi_surveillance_web.py, open a window to show webcam input. Also detect the moving pixels on a frame, and detect faces in the those pixels (need OpenCV support).
 - webcam.py, simple open a window to show webcam input.
+
+# Miscs
+navit-project.org, is an OS for vehicle navigation on Raspberry Pi. First, install Raspian OS on my Raspberry Pi, then git clone the navit repo, compile, and run. A step-by-step instruction is available on navit official website.
