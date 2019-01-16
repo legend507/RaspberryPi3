@@ -15,11 +15,6 @@ GPIO.setup(pin2Motor1, GPIO.OUT)
 GPIO.setup(pin1Motor2, GPIO.OUT)
 GPIO.setup(pin2Motor2, GPIO.OUT)
 
-#print('1 1')
-#GPIO.output(pin1Motor1, GPIO.HIGH)
-#GPIO.output(pin2Motor1, GPIO.HIGH)
-#time.sleep(5)
-
 print('Foward') # forward
 # Motor1 forward
 GPIO.output(pin1Motor1, GPIO.HIGH)
@@ -38,7 +33,7 @@ GPIO.output(pin1Motor2, GPIO.LOW)
 GPIO.output(pin2Motor2, GPIO.HIGH)
 time.sleep(5)
 
-print('Turn ?') # forward
+print('Turn ?') # turn
 # Motor1 forward
 GPIO.output(pin1Motor1, GPIO.HIGH)
 GPIO.output(pin2Motor1, GPIO.LOW)
@@ -47,7 +42,7 @@ GPIO.output(pin1Motor2, GPIO.LOW)
 GPIO.output(pin2Motor2, GPIO.HIGH)
 time.sleep(5)
 
-print('Turn ?') # forward
+print('Turn ?') # turn
 # Motor1 backward
 GPIO.output(pin1Motor1, GPIO.LOW)
 GPIO.output(pin2Motor1, GPIO.HIGH)
@@ -55,10 +50,5 @@ GPIO.output(pin2Motor1, GPIO.HIGH)
 GPIO.output(pin1Motor2, GPIO.HIGH)
 GPIO.output(pin2Motor2, GPIO.LOW)
 time.sleep(5)
-
-#print('0 0')
-#GPIO.output(pin1Motor1, GPIO.LOW)
-#GPIO.output(pin2Motor1, GPIO.LOW)
-#time.sleep(2)
 
 GPIO.cleanup()
